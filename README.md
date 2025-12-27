@@ -42,7 +42,7 @@ Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: fiction and news
+Genre: fiction news
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
