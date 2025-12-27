@@ -1,0 +1,851 @@
+# sent_id = ud_assamese_aiw_train_1
+# text = বাইদেৱেকৰ সৈতে এলিচ নদীৰ পাৰৰ ঘাঁহনিত বহি আছিল ।
+# original_text = বাইদেৱেকৰ সৈতে এলিচ নদীৰ পাৰৰ ঘাঁহনিত বহি আছিল ।
+# translation = Alice was sitting with her sister on the grassland besides the river.
+1	বাইদেৱেকৰ	বাইদেউ	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+2	সৈতে	সৈতে	ADP	_	_	1	case	_	_
+3	এলিচ	এলিচ	PROPN	_	Gender=Fem	7	nsubj	_	_
+4	নদীৰ	নদী	NOUN	_	Case=Gen|Number=Sing	7	obj	_	_
+5	পাৰৰ	পাৰ	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+6	ঘাঁহনিত	ঘাঁহনি	NOUN	_	Case=Loc	4	nmod	_	_
+7	বহি	বহা	VERB	_	VerbForm=Part	0	root	_	_
+8	আছিল	থাকা	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+9	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_2
+# text = বহি বহি তাইৰ আমনি লাগিল ।
+# original_text = বহি বহি তাইৰ আমনি লাগিল ।
+# translation = While sitting for long, she got bored.
+1	বহি	বহা	VERB	_	VerbForm=Conv	2	compound:redup	_	_
+2	বহি	বহা	VERB	_	VerbForm=Conv	5	advcl	_	_
+3	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	আমনি	আমনি	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	লাগিল	লাগা	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	।	।	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_3
+# text = হাতত একো কামো নাই কৰিবলৈ ।
+# original_text = হাতত একো কামো নাই কৰিবলৈ ।
+# translation = On the other hand, there was no work to do.
+1	হাতত	হাত	NOUN	_	Case=Loc|Number=Sing	4	obl:lmod	_	_
+2	একো	একো	DET	_	PronType=Ind	3	det	_	_
+3	কামো	কাম	NOUN	_	Number=Sing	4	nsubj	_	_
+4	নাই	থাকা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	কৰিবলৈ	কৰা	VERB	_	VerbForm=Inf	4	advcl	_	_
+6	।	।	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_4
+# text = বাইদেৱেকে পঢ়ি থকা কিতাপখনলৈ এবাৰ নে দুবাৰ কেৰাহিকৈ চাই তাই ভাবিলে , “ ছবি নথকা কিতাপখনৰ কিবা মূল্য আছে জানো ? ”
+# original_text = বাইদেৱেকে পঢ়ি থকা কিতাপখনলৈ এবাৰ নে দুৱাৰ কেৰাহিকৈ চাই তাই ভাবিলে , “ ছবি নথকা কিতাপখনৰ কিবা মূল্য আছে জানো ? ”
+# translation = On observing her sister once or twice reading the book, she thought to herself "What good is to read a book without any illustrations?"
+1	বাইদেৱেকে	বাইদেউ	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	পঢ়ি	পঢ়া	VERB	_	VerbForm=Conv	3	compound:svc	_	_
+3	থকা	থাকা	VERB	_	VerbForm=Part	4	acl	_	_
+4	কিতাপখনলৈ	কিতাপ	NOUN	_	Definite=Def|Number=Sing	9	obl	_	_
+5	এবাৰ	এবাৰ	ADV	_	_	9	advmod	_	_
+6	নে	নে	CCONJ	_	_	7	cc	_	_
+7	দুবাৰ	দুবাৰ	ADV	_	_	5	conj	_	_
+8	কেৰাহিকৈ	কেৰাহি	ADV	_	_	9	advmod	_	_
+9	চাই	চোৱা	VERB	_	VerbForm=Conv	11	advcl	_	_
+10	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	ভাবিলে	ভাবা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	“	“	PUNCT	_	_	19	punct	_	_
+14	ছবি	ছবি	NOUN	_	Case=Nom|Number=Sing	15	obj	_	_
+15	নথকা	থাকা	ADJ	_	_	16	amod	_	_
+16	কিতাপখনৰ	কিতাপ	NOUN	_	Case=Gen|Definite=Def|Number=Sing	18	nmod:poss	_	_
+17	কিবা	কিবা	DET	_	PronType=Int	18	det	_	_
+18	মূল্য	মূল্য	NOUN	_	Number=Sing	19	nsubj	_	_
+19	আছে	থাকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+20	জানো	জানা	PART	_	_	19	discourse	_	_
+21	?	?	PUNCT	_	_	19	punct	_	_
+22	”	”	PUNCT	_	_	19	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_5
+# text = গৰমৰ বাবেই হ'বলা তাইৰ চকুযুৰি টোপনিয়ে হেঁচি ধৰিছিল ।
+# original_text = গৰমৰ বাবেই হ'বলা তাইৰ চকুযুৰি টোপনিয়ে হেঁচি ধৰিছিল ।
+# translation = Because of the heat, sleep pressed heavily upon her eyes.
+1	গৰমৰ	গৰম	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
+2	বাবেই	বাবে	ADP	_	_	1	case	_	_
+3	হ'বলা	হ'বলা	ADV	_	_	8	advmod	_	_
+4	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+5	চকুযুৰি	চকুযুৰি	NOUN	_	Case=Nom|Number=Plur	8	obj	_	_
+6	টোপনিয়ে	টোপনি	NOUN	_	Definite=Def|Number=Sing	8	nsubj	_	_
+7	হেঁচি	হেঁচা	VERB	_	Aspect=Perf|VerbForm=Conv	8	compound:svc	_	_
+8	ধৰিছিল	ধৰা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	।	।	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_6
+# text = ডেইজী ফুলৰ মালা গঁথাৰ কথা এবাৰ তাই ভাবিলে ।
+# original_text = ডেইজী ফুলৰ মালা গঁথাৰ কথা এবাৰ তাই ভাবিলে ।
+# translation = Once she thought of making a garland of daisy flowers.
+1	ডেইজী	ডেইজী	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	ফুলৰ	ফুল	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	মালা	মালা	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+4	গঁথাৰ	গাঁথা	VERB	_	VerbForm=Vnoun	5	amod	_	_
+5	কথা	কথা	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+6	এবাৰ	এবাৰ	ADV	_	_	8	advmod	_	_
+7	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	ভাবিলে	ভাবা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	।	।	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_7
+# text = কিন্তু এই পকা ৰ'দখনত উঠি গৈ ফুল তুলি ফুৰাটোও জানো কম টান কাম !
+# original_text = কিন্তু এই পকা ৰ'দখনত উঠি গৈ ফুল তুলি ফুৰাটোও জানো কম টান কাম !
+# translation = But in this bright daylight to go out and pluck flowers is not very easy!
+1	কিন্তু	কিন্তু	CCONJ	_	_	13	cc	_	_
+2	এই	এই	DET	_	PronType=Dem	4	det	_	_
+3	পকা	পকা	ADJ	_	_	4	amod	_	_
+4	ৰ'দখনত	ৰ'দ	NOUN	_	Case=Loc|Definite=Def|Number=Sing	9	obl	_	_
+5	উঠি	উঠা	VERB	_	Tense=Fut|VerbForm=Conv	6	compound:svc	_	_
+6	গৈ	যোৱা	VERB	_	Tense=Fut|VerbForm=Conv	9	advcl	_	_
+7	ফুল	ফুল	NOUN	_	Number=Sing	8	obj	_	_
+8	তুলি	তোলা	VERB	_	Tense=Fut|VerbForm=Conv	9	advcl	_	_
+9	ফুৰাটোও	ফুৰা	VERB	_	Tense=Fut|VerbForm=Vnoun	13	nsubj	_	_
+10	জানো	জানো	PART	_	_	13	discourse	_	_
+11	কম	কম	ADV	_	_	12	advmod	_	_
+12	টান	টান	ADJ	_	_	13	amod	_	_
+13	কাম	কাম	NOUN	_	Number=Sing	0	root	_	_
+14	!	!	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_8
+# text = কি কৰিব কি নকৰিব ভাবি-চিন্তি থাকোঁতেই অকস্মাৎ এটা শহা-পহু তাইৰ গাৰ কাষেদিয়েই লৰ মাৰি পাৰ হৈ গ'ল ।
+# original_text = কি কৰিব কি নকৰিব ভাবি-চিন্তি থাকোঁতেই অকস্মাৎ এটা শহা-পহু তাইৰ গাৰ কাষেদিয়েই লৰ মাৰি পাৰ হৈ গ'ল ।
+# translation = While thinking what to do and what not to do suddenly a rabbit crossed near her body.
+1	কি	কি	PRON	_	PronType=Int	2	obj	_	_
+2	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	5	ccomp	_	_
+3	কি	কি	PRON	_	PronType=Int	4	obj	_	_
+4	নকৰিব	কৰা	VERB	_	Polarity=Neg|Tense=Fut|VerbForm=Inf	2	conj	_	_
+5	ভাবি-চিন্তি	ভাবা-চিন্ত	VERB	_	VerbForm=Conv	6	advcl	_	_
+6	থাকোঁতেই	থাকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+7	অকস্মাৎ	অকস্মাৎ	ADV	_	_	17	advmod	_	_
+8	এটা	এটা	NUM	_	_	9	nummod	_	_
+9	শহা-পহু	শহা-পহু	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+10	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
+11	গাৰ	গা	NOUN	_	Case=Gen|Number=Sing	12	nmod:poss	_	_
+12	কাষেদিয়েই	কাষ	NOUN	_	Case=Loc	17	obl	_	_
+13	লৰ	লৰ	NOUN	_	Case=Nom	14	compound:lvc	_	_
+14	মাৰি	মাৰা	VERB	_	Tense=Past|VerbForm=Conv	17	advcl	_	_
+15	পাৰ	পাৰ	NOUN	_	Case=Nom	16	compound:lvc	_	_
+16	হৈ	হওঁ	VERB	_	Tense=Past|VerbForm=Conv	17	compound:svc	_	_
+17	গ'ল	যোৱা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	।	।	PUNCT	_	_	17	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_9
+# text = শহাটো বগা । চকু দুটা গুলপীয়া ।
+# original_text = শহাটো বগা । চকু দুটা গুলপীয়া ।
+# translation = The rabbit is white. The eyes are pinkish.
+1	শহাটো	শহা	NOUN	_	Case=Nom|Definite=Def|Number=Sing	4	nsubj	_	_
+2	বগা	বগা	ADJ	_	_	1	acl	_	_
+3	।	।	PUNCT	_	_	1	punct	_	_
+4	চকু	চকু	NOUN	_	Case=Nom|Number=Plur	0	root	_	_
+5	দুটা	দুই	NUM	_	_	4	nummod	_	_
+6	গুলপীয়া	গুলপীয়া	ADJ	_	_	4	acl	_	_
+7	।	।	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_10
+# text = শহাটোৱে মানুহে পিন্ধাৰ দৰে পোছাক পিন্ধিছিল ।
+# original_text = শহাটোৱে মানুহে পিন্ধাৰ দৰে পোছাক পিন্ধিছিল ।
+# translation = The rabbit was wearing clothes just like how humans wear.
+1	শহাটোৱে	শহা	NOUN	_	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	_
+2	মানুহে	মানুহ	NOUN	_	Case=Erg	3	nsubj	_	_
+3	পিন্ধাৰ	পিন্ধা	VERB	_	Tense=Past|VerbForm=Vnoun	6	advcl	_	_
+4	দৰে	দৰে	ADP	_	_	3	case	_	_
+5	পোছাক	পোছাক	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	পিন্ধিছিল	পিন্ধা	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_11
+# text = পিছে শহাটোৱে যেতিয়া মানুহে কোৱাদি ক'লৈ , “ ইচ্ ইচ্ , মোৰ বৰ পলম হ'ল হে ” তেতিয়াও এলিচে বিশেষ একো ভবা নাছিল ।
+# original_text = পিছে শহাটোৱে যেতিয়া মানুহে কোৱাদি ক'লৈ , “ ইচ্ ইচ্ , মোৰ বৰ পলম হ'ল হে ” তেতিয়াও এলিচে বিশেষ একো ভবা নাছিল ।
+# translation = Even when the rabbit started to speak like a person, "Oh-oh, I am very late" still Alice did not think much.
+1	পিছে	পিছে	CCONJ	_	_	22	cc	_	_
+2	শহাটোৱে	শহা	NOUN	_	Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	_
+3	যেতিয়া	যেতিয়া	SCONJ	_	_	6	mark	_	_
+4	মানুহে	মানুহ	NOUN	_	Case=Erg	5	nsubj	_	_
+5	কোৱাদি	কোৱা	VERB	_	VerbForm=Conv	6	advcl	_	_
+6	ক'লৈ	কোৱা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	“	“	PUNCT	_	_	15	punct	_	_
+9	ইচ্	ইচ্	INTJ	_	_	10	compound:redup	_	_
+10	ইচ্	ইচ্	INTJ	_	_	15	discourse	_	_
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	মোৰ	মই	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nmod:poss	_	_
+13	বৰ	বৰ	ADV	_	_	14	advmod	_	_
+14	পলম	পলম	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+15	হ'ল	হওঁ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	_
+16	হে	হে	PART	_	_	15	discourse	_	_
+17	”	”	PUNCT	_	_	15	punct	_	_
+18	তেতিয়াও	তেতিয়া	ADV	_	_	22	advmod	_	_
+19	এলিচে	এলিচ	PROPN	_	Case=Erg|Number=Sing	22	nsubj	_	_
+20	বিশেষ	বিশেষ	ADJ	_	_	21	amod	_	_
+21	একো	একো	PRON	_	PronType=Ind	22	obj	_	_
+22	ভবা	ভাবা	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+23	নাছিল	থাকা	AUX	_	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	22	aux	_	_
+24	।	।	PUNCT	_	_	22	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_12
+# text = এইটো যেন একেবাৰে স্বাভাৱিক কথাহে ।
+# original_text = এইটো যেন একেবাৰে স্বাভাৱিক কথাহে ।
+# translation = Like it is a very normal thing.
+1	এইটো	এই	PRON	_	Definite=Def|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	যেন	যেন	SCONJ	_	_	5	mark	_	_
+3	একেবাৰে	একেবাৰে	ADV	_	_	4	advmod	_	_
+4	স্বাভাৱিক	স্বাভাৱিক	ADJ	_	_	5	amod	_	_
+5	কথাহে	কথা	NOUN	_	Definite=Def|Number=Sing	0	root	_	_
+6	।	।	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_13
+# text = শহাটোৱে তাৰ কোটৰ জেপৰপৰা ঘড়ী এটা উলিয়াই চাই খুব কোবাকুবিকৈ যাবলৈ ধৰিলে ।
+# original_text = শহাটোৱে তাৰ কোটৰ জেপৰপৰা ঘড়ী এটা উলিয়াই চাই খুব কোবাকুবিকৈ যাবলৈ ধৰিলে ।
+# translation = The rabbit took a watch out from his coat's pocket to check the time and started to hurry.
+1	শহাটোৱে	শহা	NOUN	_	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	_
+2	তাৰ	সি	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+3	কোটৰ	কোট	NOUN	_	Case=Gen|Definite=Def|Number=Sing	4	nmod:poss	_	_
+4	জেপৰপৰা	জেপ	NOUN	_	Case=Abl|Number=Sing	7	obl	_	_
+5	ঘড়ী	ঘড়ী	NOUN	_	Case=Nom|Definite=Def|Number=Sing	7	obj	_	_
+6	এটা	এটা	NUM	_	_	5	nummod	_	_
+7	উলিয়াই	উলা	VERB	_	Tense=Past|VerbForm=Conv	8	advcl	_	_
+8	চাই	চোৱা	VERB	_	Tense=Past|VerbForm=Conv	12	advcl	_	_
+9	খুব	খুব	ADV	_	_	10	advmod	_	_
+10	কোবাকুবিকৈ	কোবাকুবি	ADV	_	_	11	advmod	_	_
+11	যাবলৈ	যোৱা	VERB	_	Tense=Past|VerbForm=Inf	12	xcomp	_	_
+12	ধৰিলে	ধৰা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_14
+# text = এলিচ বহাৰপৰা গিৰিস্‌ কৰে উঠিল ।
+# original_text = এলিচ বহাৰপৰা গিৰিস্‌ কৰে উঠিল ।
+# translation = Alice suddenly stood up from sitting.
+1	এলিচ	এলিচ	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	বহাৰপৰা	বহা	NOUN	_	Case=Abl	5	obl	_	_
+3	গিৰিস্‌	গিৰিস্‌	NOUN	_	Case=Nom	4	compound:lvc	_	_
+4	কৰে	কৰা	VERB	_	Tense=Past|VerbForm=Conv	5	advcl	_	_
+5	উঠিল	উঠা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	।	।	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_15
+# text = তাইৰ মনটোত শহাটোৰ বিষয়ে নানা বিধ প্রশ্ন উদয় হ'বলৈ ধৰিলে ।
+# original_text = তাইৰ মনটোত শহাটোৰ বিষয়ে নানা বিধ প্রশ্ন উদয় হ'বলৈ ধৰিলে ।
+# translation = Many different questions regarding the rabbit started to rise in her heart.
+1	তাইৰ	তাই	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	মনটোত	মন	NOUN	_	Case=Loc|Definite=Def|Number=Sing	9	obl	_	_
+3	শহাটোৰ	শহা	NOUN	_	Case=Gen|Definite=Def|Number=Sing	4	nmod	_	_
+4	বিষয়ে	বিষয়	NOUN	_	Number=Sing	7	nmod	_	_
+5	নানা	নানা	DET	_	PronType=Ind	7	det	_	_
+6	বিধ	বিধ	NOUN	_	Number=Plur	7	compound	_	_
+7	প্রশ্ন	প্রশ্ন	NOUN	_	Case=Nom	10	nsubj	_	_
+8	উদয়	উদয়	NOUN	_	Number=Sing	9	compound:lvc	_	_
+9	হ'বলৈ	হওঁ	VERB	_	Tense=Past|VerbForm=Inf	10	xcomp	_	_
+10	ধৰিলে	ধৰা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	।	।	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_16
+# text = শহাটোৰ পাছে পাছে তায়ো লৰ মাৰিলে ।
+# original_text = শহাটোৰ পাছে পাছে তায়ো লৰ মাৰিলে ।
+# translation = She also started running after the rabbit.
+1	শহাটোৰ	শহা	NOUN	_	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	_
+2	পাছে	পাছ	NOUN	_	Case=Loc|Number=Sing	3	compound:redup	_	_
+3	পাছে	পাছ	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+4	তায়ো	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	লৰ	লৰ	NOUN	_	Case=Nom	6	compound:lvc	_	_
+6	মাৰিলে	মাৰা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_17
+# text = অৱশেষত পথাৰখনৰ সিমূৰৰ এটা জোপোহাৰ তলৰ গাঁতৰ ভিতৰত শহাটো সোমাই পৰিলগৈ ।
+# original_text = অৱশেষত পথাৰখনৰ সিমূৰৰ এটা জোপোহাৰ তলৰ গাঁতৰ ভিতৰত শহাটো সোমাই পৰিলগৈ ।
+# translation = At last, the rabbit fell into a hole beneath a bush at the edge of the field.
+1	অৱশেষত	অৱশেষ	ADV	_	_	11	advmod	_	_
+2	পথাৰখনৰ	পথাৰ	NOUN	_	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	_
+3	সিমূৰৰ	সিমূৰ	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+4	এটা	এটা	NUM	_	_	5	nummod	_	_
+5	জোপোহাৰ	জোপোহা	NOUN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+6	তলৰ	তল	NOUN	_	Case=Gen	7	nmod	_	_
+7	গাঁতৰ	গাঁত	NOUN	_	Case=Gen|Number=Sing	8	nmod	_	_
+8	ভিতৰত	ভিতৰ	NOUN	_	Case=Loc	11	obl	_	_
+9	শহাটো	শহা	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+10	সোমাই	সোমা	VERB	_	Person=3|Tense=Past|VerbForm=Conv	11	compound:svc	_	_
+11	পৰিলগৈ	পৰা	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	।	।	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_18
+# text = এক মুহূর্তও পলম নকৰি এলিচো তাৰ পাছে পাছে সোমাই গ'ল ।
+# original_text = এক মুহূর্তও পলম নকৰি এলিচো তাৰ পাছে পাছে সোমাই গ'ল ।
+# translation = Without wasting a moment Alice also jumped inside the hole after him.
+1	এক	এক	NUM	_	NumType=Card	2	nummod	_	_
+2	মুহূর্তও	মুহূর্ত	NOUN	_	Case=Nom|Definite=Def|Number=Sing	4	obl	_	_
+3	পলম	পলম	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	নকৰি	কৰা	VERB	_	Polarity=Neg|VerbForm=Conv	10	advcl	_	_
+5	এলিচো	এলিচ	PROPN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	তাৰ	সি	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+7	পাছে	পাছ	NOUN	_	Case=Loc|Number=Sing	8	compound:redup	_	_
+8	পাছে	পাছ	NOUN	_	Case=Loc|Number=Sing	10	obl	_	_
+9	সোমাই	সোমা	VERB	_	Person=3|Tense=Past|VerbForm=Conv	10	compound:svc	_	_
+10	গ'ল	যোৱা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	।	।	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_19
+# text = কি উপায়েৰে নো গাঁতটোৰপৰা ওলাই আহিবপৰা হ'ব , এবাৰো তাই ভাবিকে নাচালে ।
+# original_text = কি উপায়েৰে নো গাঁতটোৰপৰা ওলাই আহিবপৰা হ'ব , এবাৰো তাই ভাবিকে নাচালে ।
+# translation = She did not even think once about how to come out of the hole.
+1	কি	কি	DET	_	PronType=Int	2	det	_	_
+2	উপায়েৰে	উপায়	NOUN	_	Number=Sing	6	obl	_	_
+3	নো	নো	PART	_	_	2	discourse	_	_
+4	গাঁতটোৰপৰা	গাঁত	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
+5	ওলাই	ওলোৱা	VERB	_	Person=3|Tense=Fut|VerbForm=Conv	6	compound:svc	_	_
+6	আহিবপৰা	আহা	VERB	_	Person=3|Tense=Fut|VerbForm=Part	7	xcomp	_	_
+7	হ'ব	হওঁ	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	12	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	এবাৰো	এবাৰ	ADV	_	_	12	advmod	_	_
+10	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	ভাবিকে	ভাবা	VERB	_	Tense=Past|VerbForm=Conv	12	obj	_	_
+12	নাচালে	চোৱা	VERB	_	Aspect=Perf|Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	_
+13	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_20
+# text = প্ৰথমতে কিছুদূৰ শহা-পহুৰ গাঁতটো এটা সুৰঙ্গৰ দৰে গৈ আছিল ।
+# original_text = প্ৰথমতে কিছুদূৰ শহা-পহুৰ গাঁতটো এটা সুৰঙ্গৰ দৰে গৈ আছিল ।
+# translation = In the beginning for some distance, the rabbit hole was like a tunnel.
+1	প্ৰথমতে	প্ৰথম	ADV	_	_	2	advmod	_	_
+2	কিছুদূৰ	কিছুদূৰ	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	শহা-পহুৰ	শহা-পহু	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+4	গাঁতটো	গাঁত	NOUN	_	Definite=Def|Number=Sing	8	nsubj	_	_
+5	এটা	এটা	NUM	_	_	6	nummod	_	_
+6	সুৰঙ্গৰ	সুৰঙ্গ	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
+7	দৰে	দৰে	ADP	_	_	6	case	_	_
+8	গৈ	যোৱা	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+9	আছিল	থাকা	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+10	।	।	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_21
+# text = তাৰ পিছত ইমান অকস্মাতে থিয় গৰাৰ দৰে তললৈ নামি গ'ল যে একোটোকে ভাবিবলৈ সময় নৌ পাওঁতেই তাই দ নাদৰ তলত পৰিলগৈ ।
+# original_text = তাৰ পিছত ইমান অকস্মাতে থিয় গৰাৰ দৰে তললৈ নামি গ'ল যে একোটোকে ভাবিবলৈ সময় নৌ পাওঁতেই তাই দ নাদৰ তলত পৰিলগৈ ।
+# translation = But after some distance, it became abruptly so steep that before she could find a moment to realize the depth, she fell down to the bottom.
+1	তাৰ	সি	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	পিছত	পাছ	NOUN	_	Case=Loc	10	obl	_	_
+3	ইমান	ইমান	ADV	_	_	4	advmod	_	_
+4	অকস্মাতে	অকস্মাৎ	ADV	_	_	10	advmod	_	_
+5	থিয়	থিয়	ADJ	_	_	6	amod	_	_
+6	গৰাৰ	গৰা	NOUN	_	Case=Gen|Number=Sing	10	obl	_	_
+7	দৰে	দৰে	ADP	_	_	6	case	_	_
+8	তললৈ	তল	NOUN	_	Case=Dat	9	obl	_	_
+9	নামি	নামা	VERB	_	Tense=Past|VerbForm=Conv	10	compound:svc	_	_
+10	গ'ল	যোৱা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	যে	যে	SCONJ	_	_	21	mark	_	_
+12	একোটোকে	একো	PRON	_	PronType=Ind	13	obj	_	_
+13	ভাবিবলৈ	ভাবা	VERB	_	Tense=Past|VerbForm=Inf	14	acl	_	_
+14	সময়	সময়	NOUN	_	Case=Nom|Number=Sing	16	obj	_	_
+15	নৌ	না	PART	_	Polarity=Neg	16	advmod	_	_
+16	পাওঁতেই	পোৱা	VERB	_	VerbForm=Part	21	advcl	_	_
+17	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+18	দ	দ	ADJ	_	_	19	amod	_	_
+19	নাদৰ	নাদ	NOUN	_	Case=Gen|Number=Sing	20	nmod	_	_
+20	তলত	তল	NOUN	_	Case=Loc	21	obl	_	_
+21	পৰিলগৈ	পৰা	VERB	_	Aspect=Perf|Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+22	।	।	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_22
+# text = তেনেতে হঠাৎ এদম শুকান ঠাল আৰু পাতৰ মাজত তাই ধপচ্‌কৈ সৰি পৰিল ।
+# original_text = তেনেতে হঠাৎ এদম শুকান ঠাল আৰু পাতৰ মাজত তাই ধপচ্‌কৈ সৰি পৰিল ।
+# translation = And suddenly she crashed into a pile of leaves and sticks.
+1	তেনেতে	তেনেতে	ADV	_	_	12	advmod	_	_
+2	হঠাৎ	হঠাৎ	ADV	_	_	12	advmod	_	_
+3	এদম	এদম	ADJ	_	_	5	amod	_	_
+4	শুকান	শুকান	ADJ	_	_	5	amod	_	_
+5	ঠাল	ঠাল	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+6	আৰু	আৰু	CCONJ	_	_	7	cc	_	_
+7	পাতৰ	পাত	NOUN	_	Case=Gen|Number=Sing	5	conj	_	_
+8	মাজত	মাজ	NOUN	_	Case=Loc|Number=Sing	12	obl	_	_
+9	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	ধপচ্‌কৈ	ধপচ্‌	ADV	_	_	12	advmod	_	_
+11	সৰি	সৰা	VERB	_	VerbForm=Conv	12	compound:svc	_	_
+12	পৰিল	পৰা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_23
+# text = দুৰ্ঘোৰ আন্ধাৰৰ বাবে তলখনত নো কি আছে মনিবই নোৱাৰি ।
+# original_text = দুৰ্ঘোৰ আন্ধাৰৰ বাবে তলখনত নো কি আছে মনিবই নোৱাৰি ।
+# translation = It was so pitch dark that nothing could be fathomed of what's there at the bottom.
+1	দুৰ্ঘোৰ	দূৰ্ঘোৰ	ADJ	_	_	2	amod	_	_
+2	আন্ধাৰৰ	আন্ধাৰ	NOUN	_	Case=Gen|Number=Sing	8	obl	_	_
+3	বাবে	বাবে	ADP	_	_	2	mark	_	_
+4	তলখনত	তল	NOUN	_	Case=Loc|Definite=Def|Number=Sing	7	obl	_	_
+5	নো	নো	PART	_	_	6	discourse	_	_
+6	কি	কি	PRON	_	PronType=Int	7	obj	_	_
+7	আছে	থাকা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+8	মনিবই	মনিব	VERB	_	VerbForm=Inf	9	xcomp	_	_
+9	নোৱাৰি	পাৰা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_24
+# text = কিন্তু তললৈ সোমাই যাওঁতে নাদটোৰ দুয়োকাষে দেৱালত লাগি থকা আলমাৰি আৰু কিতাপৰ শ্বেল্‌ফবোৰ তাইৰ চকুত পৰিছিল ।
+# original_text = কিন্তু তললৈ সোমাই যাওঁতে নাদটোৰ দুয়োকাষে দেৱালত লাগি থকা আলমাৰি আৰু কিতাপৰ শ্বেল্‌ফবোৰ তাইৰ চকুত পৰিছিল ।
+# translation = However, while traversing through the narrow walls of the tunnel, her eyes went to the wardrobes and bookshelfs.
+1	কিন্তু	কিন্তু	CCONJ	_	_	16	cc	_	_
+2	তললৈ	তল	NOUN	_	Number=Sing	4	obl	_	_
+3	সোমাই	সোমা	VERB	_	Tense=Past|VerbForm=Conv	4	compound:svc	_	_
+4	যাওঁতে	যোৱা	VERB	_	Tense=Past|VerbForm=Part	16	advcl	_	_
+5	নাদটোৰ	নাদ	NOUN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+6	দুয়োকাষে	কাষ	NOUN	_	Case=Loc|Number=Plur	9	obl	_	_
+7	দেৱালত	দেৱাল	NOUN	_	Case=Loc	8	obl	_	_
+8	লাগি	লাগা	VERB	_	VerbForm=Conv	9	compound:svc	_	_
+9	থকা	থাকা	VERB	_	Tense=Past|VerbForm=Part	10	acl	_	_
+10	আলমাৰি	আলমাৰি	NOUN	_	Case=Nom|Number=Sing	16	obj	_	_
+11	আৰু	আৰু	CCONJ	_	_	13	cc	_	_
+12	কিতাপৰ	কিতাপ	NOUN	_	Case=Gen|Number=Sing	13	nmod:poss	_	_
+13	শ্বেল্‌ফবোৰ	শ্বেল্‌ফ	NOUN	_	Case=Nom|Number=Plur	10	conj	_	_
+14	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+15	চকুত	চকু	NOUN	_	Case=Loc|Number=Sing	16	obl	_	_
+16	পৰিছিল	পৰা	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	।	।	PUNCT	_	_	16	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_25
+# text = অ'ত ত'ত মেপ আৰু ছবি কিছুমান দেৱালত আঁৰি থোৱা আছে ।
+# original_text = অ'ত ত'ত মেপ আৰু ছবি কিছুমান দেৱালত আঁৰি থোৱা আছে ।
+# translation = There were maps and paintings hanging everywhere.
+1	অ'ত	অ'	ADV	_	ExtPos=ADV	9	obl	_	_
+2	ত'ত	ত'	ADV	_	ExtPos=ADV	1	fixed	_	_
+3	মেপ	মেপ	NOUN	_	Number=Plur	9	nsubj	_	_
+4	আৰু	আৰু	CCONJ	_	_	5	cc	_	_
+5	ছবি	ছবি	NOUN	_	Number=Plur	3	conj	_	_
+6	কিছুমান	কিছুমান	DET	_	PronType=Ind	3	det	_	_
+7	দেৱালত	দেৱাল	NOUN	_	Case=Loc	8	obl	_	_
+8	আঁৰি	আঁৰা	VERB	_	Tense=Pres|VerbForm=Part	9	compound:svc	_	_
+9	থোৱা	থোৱা	VERB	_	Tense=Pres	0	root	_	_
+10	আছে	থাকা	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_26
+# text = তললৈ , কেৱল তললৈকে তাই সোমাই গৈ আছে ।
+# original_text = তললৈ , কেৱল তললৈকে তাই সোমাই গৈ আছে ।
+# translation = Down, she was only going more towards the depth of the tunnel.
+1	তললৈ	তল	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	কেৱল	কেৱল	ADV	_	_	4	advmod	_	_
+4	তললৈকে	তল	NOUN	_	Case=Dat|Number=Sing	7	obl	_	_
+5	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	সোমাই	সোমা	VERB	_	Tense=Pres|VerbForm=Conv	7	compound:svc	_	_
+7	গৈ	যোৱা	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+8	আছে	থাকা	AUX	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+9	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_27
+# text = এইদৰে গৈ থকাৰ আৰু শেষ নহ'বনেকি ?
+# original_text = এইদৰে গৈ থকাৰ আৰু শেষ নহ'বনেকি ?
+# translation = Won't there be an end to the path downwards?
+1	এইদৰে	এইদৰে	ADV	_	_	2	advmod	_	_
+2	গৈ	যোৱা	VERB	_	Tense=Pres|VerbForm=Conv	3	compound:svc	_	_
+3	থকাৰ	থাকা	VERB	_	Tense=Pres|VerbForm=Vnoun	5	nmod	_	_
+4	আৰু	আৰু	ADV	_	_	6	advmod	_	_
+5	শেষ	শেষ	NOUN	_	Number=Sing	6	nsubj	_	_
+6	নহ'বনেকি	হওঁ	VERB	_	Mood=Ind|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_28
+# text = তাই নিজকে ক'লে , “ কিমান মাইল মই তললৈ সোমাই আহিলোঁ জানো ?
+# original_text = তাই নিজকে ক'লে , “ কিমান মাইল মই তললৈ সোমাই আহিলোঁ জানো ?
+# translation = She said to herself, "I wonder how many miles have I dived down?
+1	তাই	তাই	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	নিজকে	নিজ	PRON	_	PronType=Prs|Reflex=Yes	3	iobj	_	_
+3	ক'লে	কোৱা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	“	“	PUNCT	_	_	11	punct	_	_
+6	কিমান	কিমান	DET	_	PronType=Int	7	det	_	_
+7	মাইল	মাইল	NOUN	_	Case=Nom|Number=Sing	11	obj	_	_
+8	মই	মই	PRON	_	Person=1|PronType=Prs	11	nsubj	_	_
+9	তললৈ	তল	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+10	সোমাই	সোমা	VERB	_	VerbForm=Conv	11	compound:svc	_	_
+11	আহিলোঁ	আহা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+12	জানো	জানা	PART	_	_	11	advmod	_	_
+13	?	?	PUNCT	_	_	11	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_29
+# text = মই নিশ্চয় পৃথিৱীৰ মাজভাগমান পাইছোঁহি । কিমান দূৰ আহিলোঁ , ভাবি চাওঁ বাৰু । চাৰি হাজাৰ মাইলমানেই হ’বলা । ”
+# original_text = মই নিশ্চয় পৃথিৱীৰ মাজভাগমান পাইছোঁহি । কিমান দূৰ আহিলোঁ , ভাবি চাওঁ বাৰু । চাৰি হাজাৰ মাইলমানেই হ’বলা । ”
+# translation = I must have surely reached the middle of earth. Let me think how far I have come. It must be about four thousand miles."
+1	মই	মই	PRON	_	Gender=Fem|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	নিশ্চয়	নিশ্চয়	ADV	_	_	5	advmod	_	_
+3	পৃথিৱীৰ	পৃথিৱী	NOUN	_	Case=Gen	4	nmod:poss	_	_
+4	মাজভাগমান	মাজভাগ	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	পাইছোঁহি	পোৱা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	।	।	PUNCT	_	_	5	punct	_	_
+7	কিমান	কিমান	DET	_	PronType=Int	8	det	_	_
+8	দূৰ	দূৰ	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+9	আহিলোঁ	আহা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	ভাবি	ভাবা	VERB	_	Tense=Pres|VerbForm=Conv	12	advcl	_	_
+12	চাওঁ	চোৱা	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+13	বাৰু	বাৰু	PART	_	_	12	discourse	_	_
+14	।	।	PUNCT	_	_	9	punct	_	_
+15	চাৰি	চাৰি	NUM	_	_	16	compound	_	_
+16	হাজাৰ	হাজাৰ	NUM	_	_	17	nummod	_	_
+17	মাইলমানেই	মাইল	NOUN	_	Number=Plur	9	parataxis	_	_
+18	হ’বলা	হওঁ	AUX	_	Mood=Ind|Tense=Fut|VerbForm=Fin	17	cop	_	_
+19	।	।	PUNCT	_	_	17	punct	_	_
+20	”	”	PUNCT	_	_	5	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_30
+# text = এনে ধৰণৰ কথাবোৰ তাই স্কুলত পঢ়িছিল ।
+# original_text = এনে ধৰণৰ কথাবোৰ তাই স্কুলত পঢ়িছিল ।
+# translation = She had studied such things in school.
+1	এনে	এনে	DET	_	PronType=Dem	2	det	_	_
+2	ধৰণৰ	ধৰণ	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	কথাবোৰ	কথা	NOUN	_	Case=Nom|Definite=Def|Number=Plur	6	obj	_	_
+4	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	স্কুলত	স্কুল	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+6	পঢ়িছিল	পঢ়া	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_31
+# text = কথাখিনি তাই ডাঙৰকৈ ক'লে এই কাৰণেই যে ওচৰত শুনোতা কোনো নাই ।
+# original_text = কথাখিনি তাই ডাঙৰকৈ ক'লে এই কাৰণেই যে ওচৰত শুনোতা কোনো নাই ।
+# translation = She said the words loudly because there was no one nearby to hear.
+1	কথাখিনি	কথা	NOUN	_	Case=Acc|Definite=Def|Number=Sing	4	obj	_	_
+2	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ডাঙৰকৈ	ডাঙৰ	ADV	_	_	4	advmod	_	_
+4	ক'লে	কোৱা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	এই	এই	DET	_	PronType=Dem	6	det	_	_
+6	কাৰণেই	কাৰণ	NOUN	_	Case=Nom	4	obl	_	_
+7	যে	যে	SCONJ	_	_	11	mark	_	_
+8	ওচৰত	ওচৰ	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
+9	শুনোতা	শুনোতা	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+10	কোনো	কোনো	PRON	_	PronType=Ind	9	det	_	_
+11	নাই	থাকা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+12	।	।	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_32
+# text = তাই আকৌ ক'লে , “ হয় , ইমানেই দুৰৈ হ'ব । যদি সেয়ে হয় , তেনেহ'লে মই আহি পোৱা ঠাইখনৰ দ্ৰাঘিমা আৰু অক্ষাংশ কিমান হ'ব ? ”
+# original_text = তাই আকৌ ক'লে , “ হয় , ইমানেই দুৰৈ হ'ব । যদি সেয়ে হয় , তেনেহ'লে মই আহি পোৱা ঠাইখনৰ দ্ৰাঘিমা আৰু অক্ষাংশ কিমান হ'ব ? ”
+# translation = She again said, "Yes, it must be about this far. If that is so, then what would be the longitude and latitude of the place where I have come?"
+1	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	আকৌ	আকৌ	ADV	_	_	3	advmod	_	_
+3	ক'লে	কোৱা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	“	“	PUNCT	_	_	10	punct	_	_
+6	হয়	হওঁ	INTJ	_	_	10	discourse	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ইমানেই	ইমান	ADV	_	_	9	advmod	_	_
+9	দুৰৈ	দুৰ	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+10	হ'ব	হওঁ	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+11	।	।	PUNCT	_	_	10	punct	_	_
+12	যদি	যদি	SCONJ	_	_	14	mark	_	_
+13	সেয়ে	সেই	PRON	_	PronType=Dem	14	nsubj	_	_
+14	হয়	হওঁ	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	তেনেহ'লে	তেনেহ'লে	ADV	_	_	25	advmod	_	_
+17	মই	মই	PRON	_	Gender=Fem|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	আহি	আহা	VERB	_	VerbForm=Conv	19	compound:svc	_	_
+19	পোৱা	পোৱা	VERB	_	VerbForm=Part	20	acl	_	_
+20	ঠাইখনৰ	ঠাই	NOUN	_	Case=Gen|Definite=Def|Number=Sing	21	nmod:poss	_	_
+21	দ্ৰাঘিমা	দ্ৰাঘিমা	NOUN	_	Case=Nom|Number=Sing	25	nsubj	_	_
+22	আৰু	আৰু	CCONJ	_	_	23	cc	_	_
+23	অক্ষাংশ	অক্ষাংশ	NOUN	_	Case=Nom|Number=Sing	21	conj	_	_
+24	কিমান	কিমান	DET	_	PronType=Int	25	det	_	_
+25	হ'ব	হওঁ	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	10	parataxis	_	_
+26	?	?	PUNCT	_	_	10	punct	_	_
+27	”	”	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_33
+# text = আচলতে দ্রাঘিমা আৰু অক্ষাংশৰ বিষয়ে এলিচে একোকে নাজানে ।
+# original_text = আচলতে দ্রাঘিমা আৰু অক্ষাংশৰ বিষয়ে এলিচে একোকে নাজানে ।
+# translation = Actually, Alice does not know anything about longitude and latitude.
+1	আচলতে	আচল	ADV	_	_	8	advmod	_	_
+2	দ্রাঘিমা	দ্রাঘিমা	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+3	আৰু	আৰু	CCONJ	_	_	2	cc	_	_
+4	অক্ষাংশৰ	অক্ষাংশ	NOUN	_	Case=Gen|Number=Sing	2	conj	_	_
+5	বিষয়ে	বিষয়	ADP	_	_	4	case	_	_
+6	এলিচে	এলিচ	PROPN	_	_	8	nsubj	_	_
+7	একোকে	একো	PRON	_	PronType=Ind	8	obj	_	_
+8	নাজানে	জানা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	।	।	PUNCT	_	_	8	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_34
+# text = ইমান ডাঙৰ ডাঙৰ শব্দ মুখেৰে উচ্চাৰণ কৰাটোকে তাই বৰ বাহাদুৰিৰ কথা বুলি ভাবিলে ।
+# original_text = ইমান ডাঙৰ ডাঙৰ শব্দ মুখেৰে উচ্চাৰণ কৰাটোকে তাই বৰ বাহাদুৰিৰ কথা বুলি ভাবিলে ।
+# translation = She thought that pronouncing such big big words from her mouth aloud was a brave thing.
+1	ইমান	ইমান	ADV	_	_	3	advmod	_	_
+2	ডাঙৰ	ডাঙৰ	ADJ	_	_	3	compound:redup	_	_
+3	ডাঙৰ	ডাঙৰ	ADJ	_	_	4	amod	_	_
+4	শব্দ	শব্দ	NOUN	_	Case=Nom|Number=Plur	7	obj	_	_
+5	মুখেৰে	মুখ	NOUN	_	Number=Sing	7	obl	_	_
+6	উচ্চাৰণ	উচ্চাৰণ	NOUN	_	Number=Sing	7	compound:lvc	_	_
+7	কৰাটোকে	কৰা	VERB	_	VerbForm=Vnoun	13	obl	_	_
+8	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+9	বৰ	বৰ	ADV	_	_	10	advmod	_	_
+10	বাহাদুৰিৰ	বাহাদুৰি	NOUN	_	Case=Gen|Number=Sing	11	nmod:poss	_	_
+11	কথা	কথা	NOUN	_	Case=Nom|Number=Sing	13	ccomp	_	_
+12	বুলি	বুলি	SCONJ	_	_	11	mark	_	_
+13	ভাবিলে	ভাবা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	।	।	PUNCT	_	_	13	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_35
+# text = নতুন নতুন ভাববোৰে তাইৰ মনটো ওপচাই পেলালে ।
+# original_text = নতুন নতুন ভাববোৰে তাইৰ মনটো ওপচাই পেলালে ।
+# translation = All these new thoughts made her heart overflow.
+1	নতুন	নতুন	ADJ	_	_	2	compound:redup	_	_
+2	নতুন	নতুন	ADJ	_	_	3	amod	_	_
+3	ভাববোৰে	ভাব	NOUN	_	Number=Plur	7	nsubj	_	_
+4	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+5	মনটো	মন	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
+6	ওপচাই	ওপচা	VERB	_	VerbForm=Conv	7	compound:svc	_	_
+7	পেলালে	পেলা	VERB	_	Tense=Past	0	root	_	_
+8	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_36
+# text = এটা কথা ভাবি তাই অবাক হৈ গ'ল ।
+# original_text = এটা কথা ভাবি তাই অবাক হৈ গ'ল ।
+# translation = A thought surpirsed her.
+1	এটা	এটা	NUM	_	_	2	nummod	_	_
+2	কথা	কথা	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	ভাবি	ভাবা	VERB	_	VerbForm=Conv	7	advcl	_	_
+4	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	অবাক	অবাক	ADJ	_	_	7	xcomp	_	_
+6	হৈ	হওঁ	VERB	_	VerbForm=Conv	7	compound:svc	_	_
+7	গ'ল	যাওঁ	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_train_37
+# text = পৃথিৱীৰ সোঁ-মাজেদি হয়তো তাই পাৰ হৈ যাবগৈ লাগিব ।
+# original_text = পৃথিৱীৰ সোঁ-মাজেদি হয়তো তাই পাৰ হৈ যাবগৈ লাগিব ।
+# translation = She might need to cross through the other half of the earth.
+1	পৃথিৱীৰ	পৃথিৱী	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	সোঁ-মাজেদি	সোঁ-মাজ	NOUN	_	Number=Sing	7	obl	_	_
+3	হয়তো	হয়তো	ADV	_	_	8	advmod	_	_
+4	তাই	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	পাৰ	পাৰ	NOUN	_	Case=Nom|Number=Sing	7	obj	_	_
+6	হৈ	হওঁ	VERB	_	VerbForm=Conv	7	compound:lvc	_	_
+7	যাবগৈ	যাব	VERB	_	Tense=Fut|VerbForm=Inf	8	xcomp	_	_
+8	লাগিব	লাগা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	।	।	PUNCT	_	_	8	punct	_	_
+
+# sent_id = coercive_discourse_train_1
+# text = সকলোৱে শান্তিৰে দুৰ্গা পূজা অনুষ্ঠিত কৰিব লাগিব ।
+# original_text = সকলোৱে শান্তিৰে দুৰ্গা পূজা অনুষ্ঠিত কৰিব লাগিব ।
+# translation = Everyone must organise the Durga Puja peacefully.
+1	সকলোৱে	সকলো	PRON	_	Case=Erg|Number=Plur|PronType=Tot	7	nsubj	_	_
+2	শান্তিৰে	শান্তি	NOUN	_	Case=Ins|Number=Sing	6	obl	_	_
+3	দুৰ্গা	দুৰ্গা	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
+4	পূজা	পূজা	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
+5	অনুষ্ঠিত	অনুষ্ঠিত	VERB	_	VerbForm=Part	4	acl	_	_
+6	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	7	xcomp	_	_
+7	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = coercive_discourse_train_2
+# text = উৎসৱস্থলীক সকলোধৰণৰ বিপদজনক সামগ্ৰীৰ পৰা মুক্ত কৰি ৰাখিব লাগিব ।
+# original_text = উৎসৱস্থলীক সকলোধৰণৰ বিপদজনক সামগ্ৰীৰ পৰা মুক্ত কৰি ৰাখিব লাগিব ।
+# translation = The festival venue must be kept safe from all types of dangorous materials.
+1	উৎসৱস্থলীক	উৎসৱস্থলী	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
+2	সকলোধৰণৰ	সকলোধৰণ	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+3	বিপদজনক	বিপদজনক	ADJ	_	_	4	amod	_	_
+4	সামগ্ৰীৰ	সামগ্ৰী	NOUN	_	Case=Gen|Number=Plur	6	obl	_	_
+5	পৰা	পৰা	ADP	_	_	4	case	_	_
+6	মুক্ত	মুক্ত	ADJ	_	_	7	compound:lvc	_	_
+7	কৰি	কৰা	VERB	_	VerbForm=Conv	8	compound:svc	_	_
+8	ৰাখিব	ৰাখা	VERB	_	Tense=Fut|VerbForm=Inf	9	xcomp	_	_
+9	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = coercive_discourse_train_3
+# text = পৰিস্কাৰৰ দিশটোৰ প্ৰতিও লক্ষ্য ৰাখিব লাগিব ।
+# original_text = পৰিস্কাৰৰ দিশটোৰ প্ৰতিও লক্ষ্য ৰাখিব লাগিব ।
+# translation = One must also pay attention to the aspect of cleanliness.
+1	পৰিস্কাৰৰ	পৰিস্কাৰ	NOUN	_	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	দিশটোৰ	দিশ	NOUN	_	Case=Gen|Definite=Def|Number=Sing	5	obl	_	_
+3	প্ৰতিও	প্রতি	ADP	_	_	2	case	_	_
+4	লক্ষ্য	লক্ষ্য	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+5	ৰাখিব	ৰাখা	VERB	_	Tense=Fut|VerbForm=Inf	6	xcomp	_	_
+6	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = coercive_discourse_train_4
+# text = জৰুৰীকালীন সময়ত ব্যৱহাৰ কৰিব পৰাকৈ এক সুকীয়া স্থানৰ ব্যৱস্থা কৰিব লাগিব ।
+# original_text = জৰুৰীকালীন সময়ত ব্যৱহাৰ কৰিব পৰাকৈ এক সুকীয়া স্থানৰ ব্যৱস্থা কৰিব লাগিব ।
+# translation = A special place must be arranged that can be used in case of any emergencies.
+1	জৰুৰীকালীন	জৰুৰীকালীন	ADJ	_	_	2	amod	_	_
+2	সময়ত	সময়	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+3	ব্যৱহাৰ	ব্যৱহাৰ	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	11	advcl	_	_
+5	পৰাকৈ	পাৰা	VERB	_	VerbForm=Part	4	xcomp	_	_
+6	এক	এক	NUM	_	NumType=Card	8	nummod	_	_
+7	সুকীয়া	সুকীয়া	ADJ	_	_	8	amod	_	_
+8	স্থানৰ	স্থান	NOUN	_	Case=Gen|Number=Sing	9	nmod:poss	_	_
+9	ব্যৱস্থা	ব্যৱস্থা	NOUN	_	Case=Acc|Number=Sing	10	compound:lvc	_	_
+10	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	11	xcomp	_	_
+11	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	।	।	PUNCT	_	_	11	punct	_	_
+
+# sent_id = coercive_discourse_train_5
+# text = যিকোনোধৰণৰ জৰুৰীকালীন অৱস্থাৰ মোকাবিলা কৰিব পৰাকৈ এটা চিকিৎসকৰ গোট সাজু কৰি ৰাখিবলৈয়ো এই নিৰ্দেশনাত কোৱা হৈছে ।
+# original_text = যিকোনোধৰণৰ জৰুৰীকালীন অৱস্থাৰ মোকাবিলা কৰিব পৰাকৈ এটা চিকিৎসকৰ গোট সাজু কৰি ৰাখিবলৈয়ো এই নিৰ্দেশনাত কোৱা হৈছে ।
+# translation = For any kind of emergency situation a team of doctors must be kept ready, is mentioned in this directive.
+1	যিকোনোধৰণৰ	যিকোনোধৰণ	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	জৰুৰীকালীন	জৰুৰীকালীন	ADJ	_	_	3	amod	_	_
+3	অৱস্থাৰ	অৱস্থা	NOUN	_	Case=Gen|Number=Sing	4	obj	_	_
+4	মোকাবিলা	মোকাবিলা	NOUN	_	Case=Acc|Number=Sing	5	compound:lvc	_	_
+5	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	6	xcomp	_	_
+6	পৰাকৈ	পাৰা	VERB	_	Tense=Fut|VerbForm=Part	12	advcl	_	_
+7	এটা	এক	NUM	_	NumType=Card	9	nummod	_	_
+8	চিকিৎসকৰ	চিকিৎসক	NOUN	_	Case=Gen	9	nmod:poss	_	_
+9	গোট	গোট	NOUN	_	Case=Acc	12	obj	_	_
+10	সাজু	সাজু	ADJ	_	_	11	compound:lvc	_	_
+11	কৰি	কৰা	VERB	_	Tense=Fut|VerbForm=Conv	12	compound:svc	_	_
+12	ৰাখিবলৈয়ো	ৰাখা	VERB	_	Tense=Fut|VerbForm=Inf	15	xcomp	_	_
+13	এই	এই	DET	_	PronType=Dem	14	det	_	_
+14	নিৰ্দেশনাত	নিৰ্দেশনা	NOUN	_	Case=Loc|Definite=Def|Number=Sing	15	obl	_	_
+15	কোৱা	কোৱা	VERB	_	Aspect=Perf|Tense=Pres|VerbForm=Part	0	root	_	_
+16	হৈছে	হওঁ	AUX	_	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+17	।	।	PUNCT	_	_	15	punct	_	_
+
+# sent_id = coercive_discourse_train_6
+# text = কোনো গুৰুত্বপূৰ্ণ ব্যক্তিৰ আগমণ হ'লে পূজা কমিটীয়ে পূৰ্বেই আৰক্ষীক জনাব লাগিব ।
+# original_text = কোনো গুৰুত্বপূৰ্ণ ব্যক্তিৰ আগমণ হ'লে পূজা কমিটীয়ে পূৰ্বেই আৰক্ষীক জনাব লাগিব ।
+# translation = If there is plan of arrival of any important person, the puja committee must inform the police in advance.
+1	কোনো	কোনো	DET	_	PronType=Ind	3	det	_	_
+2	গুৰুত্বপূৰ্ণ	গুৰুত্বপূৰ্ণ	ADJ	_	_	3	amod	_	_
+3	ব্যক্তিৰ	ব্যক্তি	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+4	আগমণ	আগমণ	NOUN	_	Case=Nom|Number=Sing	10	advcl	_	_
+5	হ'লে	হ	SCONJ	_	_	4	mark	_	_
+6	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	কমিটীয়ে	কমিটি	NOUN	_	Case=Erg|Number=Sing	10	nsubj	_	_
+8	পূৰ্বেই	পূৰ্বে	ADV	_	_	10	advmod	_	_
+9	আৰক্ষীক	আৰক্ষী	NOUN	_	Case=Acc|Number=Sing	10	iobj	_	_
+10	জনাব	জনোৱা	VERB	_	Tense=Fut|VerbForm=Inf	11	xcomp	_	_
+11	লাগিব	লাগে	VERB	_	Aspect=Perf|Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	।	।	PUNCT	_	_	11	punct	_	_
+
+# sent_id = coercive_discourse_train_7
+# text = পূজা স্থলীসমূহত মাদ্ৰক দ্ৰব্যৰ ব্যৱহাৰ , উপলদ্ধতা সম্পূৰ্ণৰূপে নিষিদ্ধ ।
+# original_text = পূজা স্থলীসমূহত মাদ্ৰক দ্ৰব্যৰ ব্যৱহাৰ , উপলদ্ধতা সম্পূৰ্ণৰূপে নিষিদ্ধ ।
+# translation = The use and availability of intoxicated products is strictly prohibited nearby the puja area.
+1	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	স্থলীসমূহত	স্থলী	NOUN	_	Case=Loc|Number=Plur	9	obl	_	_
+3	মাদ্ৰক	মাদ্ৰক	ADJ	_	_	4	amod	_	_
+4	দ্ৰব্যৰ	দ্ৰব্য	NOUN	_	Case=Gen|Number=Plur	5	nmod	_	_
+5	ব্যৱহাৰ	ব্যৱহাৰ	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	উপলদ্ধতা	উপলদ্ধ	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
+8	সম্পূৰ্ণৰূপে	সম্পূৰ্ণৰূপে	ADV	_	_	9	advmod	_	_
+9	নিষিদ্ধ	নিষিদ্ধ	ADJ	_	_	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = coercive_discourse_train_8
+# text = অনুষ্ঠানৰ শেষত পূজাস্থলী পৰিস্কাৰ কৰিব লাগিব ।
+# original_text = অনুষ্ঠানৰ শেষত পূজাস্থলী পৰিস্কাৰ কৰিব লাগিব ।
+# translation = At the end of puja, the venue must be cleaned.
+1	অনুষ্ঠানৰ	অনুষ্ঠান	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	শেষত	শেষ	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
+3	পূজাস্থলী	পূজাস্থলী	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	পৰিস্কাৰ	পৰিস্কাৰ	ADJ	_	_	5	compound:lvc	_	_
+5	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	6	xcomp	_	_
+6	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+7	।	।	PUNCT	_	_	6	punct	_	_
+
+# sent_id = coercive_discourse_train_9
+# text = কোনো কমিটীয়ে বলপূৰ্বকভাৱে চান্দা বৰঙণি আদি সংগ্ৰহ কৰিব নোৱাৰিব ।
+# original_text = কোনো কমিটীয়ে বলপূৰ্বকভাৱে চান্দা বৰঙণি আদি সংগ্ৰহ কৰিব নোৱাৰিব ।
+# translation = Any puja committee cannot collect donation or contribution etc. forcefully.
+1	কোনো	কোনো	DET	_	PronType=Ind	2	det	_	_
+2	কমিটীয়ে	কমিটি	NOUN	_	Case=Erg|Number=Sing	9	nsubj	_	_
+3	বলপূৰ্বকভাৱে	বলপূৰ্বক	ADV	_	_	8	advmod	_	_
+4	চান্দা	চান্দা	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
+5	বৰঙণি	বৰঙণি	NOUN	_	Case=Acc|Number=Sing	4	conj	_	_
+6	আদি	আদি	PART	_	_	5	discourse	_	_
+7	সংগ্ৰহ	সংগ্ৰহ	NOUN	_	Number=Sing	8	compound:lvc	_	_
+8	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	9	xcomp	_	_
+9	নোৱাৰিব	পৰা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = coercive_discourse_train_10
+# text = পূজা কমিটীৰ সকলো বিষয়ববীয়া আৰু স্বেচ্ছাসেৱকৰ নাম আৰক্ষী থানাত দাখিল কৰিব লাগিব ।
+# original_text = পূজা কমিটীৰ সকলো বিষয়ববীয়া আৰু স্বেচ্ছাসেৱকৰ নাম আৰক্ষী থানাত দাখিল কৰিব লাগিব ।
+# translation = The names of all puja committee members and volunteers must be submitted to the police station.
+1	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	কমিটীৰ	কমিটি	NOUN	_	Case=Gen|Number=Sing	4	nmod:poss	_	_
+3	সকলো	সকলো	DET	_	PronType=Tot	4	det	_	_
+4	বিষয়ববীয়া	বিষয়ববীয়া	NOUN	_	Number=Plur	11	nmod:poss	_	_
+5	আৰু	আৰু	CCONJ	_	_	6	cc	_	_
+6	স্বেচ্ছাসেৱকৰ	স্বেচ্ছাসেৱক	NOUN	_	Case=Gen|Number=Plur	4	conj	_	_
+7	নাম	নাম	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+8	আৰক্ষী	আৰক্ষী	NOUN	_	Number=Sing	9	compound	_	_
+9	থানাত	থানা	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
+10	দাখিল	দাখিল	NOUN	_	Case=Nom|Number=Sing	11	compound:lvc	_	_
+11	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	12	xcomp	_	_
+12	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = coercive_discourse_train_11
+# text = ইয়াৰোপৰি জিলা প্ৰশাসন এই নীতি নির্দেশনা অনুসৰি কাম কৰিবলৈ সকলো কৰ্মকৰ্তা , ভক্তক আহ্বান জনাবলৈ কোৱা হৈছে ।
+# original_text = ইয়াৰোপৰি জিলা প্ৰশাসন এই নীতি নির্দেশনা অনুসৰি কাম কৰিবলৈ সকলো কৰ্মকৰ্তা , ভক্তক আহ্বান জনাবলৈ কোৱা হৈছে ।
+# translation = On top of that, the district administration has asked all the officials and devotees to work according to this policy guidelines.
+1	ইয়াৰোপৰি	ইয়াৰোপৰি	ADV	_	_	16	advmod	_	_
+2	জিলা	জিলা	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	প্ৰশাসন	প্ৰশাসন	NOUN	_	Case=Nom|Number=Sing	16	nsubj	_	_
+4	এই	এই	DET	_	PronType=Dem	6	det	_	_
+5	নীতি	নীতি	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	নির্দেশনা	নির্দেশনা	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+7	অনুসৰি	অনুসৰি	ADP	_	_	6	case	_	_
+8	কাম	কাম	NOUN	_	Case=Nom|Number=Sing	9	compound:lvc	_	_
+9	কৰিবলৈ	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	15	advcl	_	_
+10	সকলো	সকলো	DET	_	PronType=Tot	11	det	_	_
+11	কৰ্মকৰ্তা	কৰ্মকৰ্তা	NOUN	_	Number=Plur	15	obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	ভক্তক	ভক্তক	NOUN	_	Number=Plur	11	conj	_	_
+14	আহ্বান	আহ্বান	NOUN	_	Case=Acc|Number=Sing	15	compound:lvc	_	_
+15	জনাবলৈ	জনোৱা	VERB	_	Tense=Fut|VerbForm=Inf	16	xcomp	_	_
+16	কোৱা	কোৱা	VERB	_	VerbForm=Part	0	root	_	_
+17	হৈছে	হওঁ	AUX	_	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+18	।	।	PUNCT	_	_	16	punct	_	_
+
+# sent_id = coercive_discourse_train_12
+# text = পুৰুষ - মহিলাৰ বাবে পৃথকে পৃথকে প্ৰৱেশ আৰু প্ৰস্থানৰ ব্যৱস্থা কৰিব লাগিব ।
+# original_text = পুৰুষ - মহিলাৰ বাবে পৃথকে পৃথকে প্ৰৱেশ আৰু প্ৰস্থানৰ ব্যৱস্থা কৰিব লাগিব ।
+# translation = Separate arrangements for entry and exit must be made for men and women .
+1	পুৰুষ	পুৰুষ	NOUN	_	Case=Gen|Number=Plur	11	nsubj	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	মহিলাৰ	মহিলা	NOUN	_	Case=Gen|Number=Plur	1	conj	_	_
+4	বাবে	বাবে	ADP	_	_	3	case	_	_
+5	পৃথকে	পৃথক	ADV	_	_	6	compound:redup	_	_
+6	পৃথকে	পৃথক	ADV	_	_	11	advmod	_	_
+7	প্ৰৱেশ	প্ৰৱেশ	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+8	আৰু	আৰু	CCONJ	_	_	9	cc	_	_
+9	প্ৰস্থানৰ	প্ৰস্থান	NOUN	_	Case=Gen|Number=Sing	7	conj	_	_
+10	ব্যৱস্থা	ব্যৱস্থা	NOUN	_	Number=Sing	11	obj	_	_
+11	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	12	xcomp	_	_
+12	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	।	।	PUNCT	_	_	12	punct	_	_
+
+# sent_id = coercive_discourse_train_13
+# text = পূজা মণ্ডপৰ আশে - পাশে বিশুদ্ধ খোৱাপানীৰ ব্যৱস্থা ৰাখিব ।
+# original_text = পূজা মণ্ডপৰ আশে - পাশে বিশুদ্ধ খোৱাপানীৰ ব্যৱস্থা ৰাখিব ।
+# translation = Keep arrangement of clean drinking water near the puja pandal.
+1	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	মণ্ডপৰ	মণ্ডপ	NOUN	_	Case=Gen|Number=Sing	5	nmod	_	_
+3	আশে	আশে	ADP	_	_	5	compound:redup	_	_
+4	-	-	PUNCT	_	_	5	punct	_	_
+5	পাশে	পাশে	ADP	_	_	9	obl	_	_
+6	বিশুদ্ধ	বিশুদ্ধ	ADJ	_	_	7	amod	_	_
+7	খোৱাপানীৰ	খোৱাপানী	NOUN	_	Case=Gen|Number=Sing	8	nmod:poss	_	_
+8	ব্যৱস্থা	ব্যৱস্থা	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
+9	ৰাখিব	ৰাখা	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = coercive_discourse_train_14
+# text = ভক্তপ্ৰাণ ৰাইজৰ সুবিধার্থে প্রতিখন পূজা সমিতিয়ে একোটা ২৪x৭ সহায়ক কক্ষ স্থাপন কৰিব লাগিব ।
+# original_text = ভক্তপ্ৰাণ ৰাইজৰ সুবিধার্থে প্রতিখন পূজা সমিতিয়ে একোটা ২৪x৭ সহায়ক কক্ষ স্থাপন কৰিব লাগিব ।
+# translation = For the convinience of the devotees, every puja committee must establish a 24*7 support room.
+1	ভক্তপ্ৰাণ	ভক্তপ্ৰাণ	ADJ	_	_	2	amod	_	_
+2	ৰাইজৰ	ৰাইজ	NOUN	_	Case=Gen|Number=Plur	6	nmod	_	_
+3	সুবিধার্থে	সুবিধা	ADP	_	_	2	case	_	_
+4	প্রতিখন	প্রতি	DET	_	PronType=Tot	6	det	_	_
+5	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
+6	সমিতিয়ে	সমিতি	NOUN	_	Case=Erg	13	nsubj	_	_
+7	একোটা	এক	NUM	_	NumType=Card	10	nummod	_	_
+8	২৪x৭	২৪x৭	NUM	_	NumType=Card	10	nummod	_	_
+9	সহায়ক	সহায়	ADJ	_	_	10	amod	_	_
+10	কক্ষ	কক্ষ	NOUN	_	Case=Acc|Number=Sing	12	obj	_	_
+11	স্থাপন	স্থাপন	NOUN	_	Number=Sing	12	compound:lvc	_	_
+12	কৰিব	কৰা	VERB	_	Tense=Fut|VerbForm=Inf	13	xcomp	_	_
+13	লাগিব	লাগে	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	।	।	PUNCT	_	_	13	punct	_	_

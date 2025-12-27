@@ -1,0 +1,125 @@
+# sent_id = ud_assamese_aiw_test_48
+# text = চাহ খাবৰ বেলিকা তাইৰ গাখীৰৰ থালখনত গাখীৰ দিবলৈ সিহঁতে নাপাহৰে যেন ।
+# original_text = চাহ খাবৰ বেলিকা তাইৰ গাখীৰৰ থালখনত গাখীৰ দিবলৈ সিহঁতে নাপাহৰে যেন ।
+# translation = While having their tea hopefully they don't forget to fill milk in Dinah's plate.
+1	চাহ	চাহ	NOUN	_	Case=Nom|Number=Sing	2	obj	_	_
+2	খাবৰ	খোৱা	VERB	_	VerbForm=Vnoun	3	acl	_	_
+3	বেলিকা	বেলি	NOUN	_	Number=Sing	10	obl	_	_
+4	তাইৰ	তাই	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+5	গাখীৰৰ	গাখীৰ	NOUN	_	Case=Gen|Number=Sing	6	nmod	_	_
+6	থালখনত	থাল	NOUN	_	Case=Loc|Number=Sing	10	obl	_	_
+7	গাখীৰ	গাখীৰ	NOUN	_	Number=Sing	8	obj	_	_
+8	দিবলৈ	দিয়া	VERB	_	VerbForm=Inf	10	xcomp	_	_
+9	সিহঁতে	সিহঁত	PRON	_	Number=Plur|PronType=Prs	10	nsubj	_	_
+10	নাপাহৰে	পাহৰা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	যেন	যেন	SCONJ	_	_	10	discourse	_	_
+12	।	।	PUNCT	_	_	10	punct	_	_
+
+# sent_id = ud_assamese_aiw_test_49
+# text = বাদুলিবোৰ দেখাত নিগনিৰ নিচিনাই , জান নহয় তই ?
+# original_text = বাদুলিবোৰ দেখাত নিগনিৰ নিচিনাই , জান নহয় তই ?
+# translation = Bats do look similar to rats, I hope you know about that?
+1	বাদুলিবোৰ	বাদুলি	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+2	দেখাত	দেখা	NOUN	_	Case=Loc	4	obl	_	_
+3	নিগনিৰ	নিগনি	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	নিচিনাই	নিচিনা	ADJ	_	_	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	জান	জানা	VERB	_	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
+7	নহয়	হওঁ	VERB	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	তই	তই	PRON	_	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+9	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_test_50
+# text = সমুখৰ দীঘল বাটটোৱেদি শহাটো তেতিয়াও কোবাকুবিকৈ গৈ আছিল ।
+# original_text = সমুখৰ দীঘল বাটটোৱেদি শহাটো তেতিয়াও কোবাকুবিকৈ গৈ আছিল ।
+# translation = Despite the long tunnelway in front, the rabbit still hurriedly marched ahead.
+1	সমুখৰ	সমুখ	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	দীঘল	দীঘল	ADJ	_	_	3	amod	_	_
+3	বাটটোৱেদি	বাট	NOUN	_	Definite=Def|Number=Sing	7	obl	_	_
+4	শহাটো	শহা	NOUN	_	Case=Nom|Definite=Def|Number=Sing	7	nsubj	_	_
+5	তেতিয়াও	তেতিয়া	ADV	_	_	7	advmod	_	_
+6	কোবাকুবিকৈ	কোবাকুবি	ADV	_	_	7	advmod	_	_
+7	গৈ	যোৱা	VERB	_	VerbForm=Conv	0	root	_	_
+8	আছিল	থাকা	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+9	।	।	PUNCT	_	_	7	punct	_	_
+
+# sent_id = ud_assamese_aiw_test_51
+# text = এলিচ এতিয়া উপস্থিত হ'ল দীঘল চাপৰ এটা ঘৰৰ ভিতৰত ।
+# original_text = এলিচ এতিয়া উপস্থিত হ'ল দীঘল চাপৰ এটা ঘৰৰ ভিতৰত ।
+# translation = Alice now had arrived inside a house that was quiet long but short.
+1	এলিচ	এলিচ	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	এতিয়া	এতিয়া	ADV	_	_	4	advmod	_	_
+3	উপস্থিত	উপস্থিত	NOUN	_	Case=Nom|Number=Sing	4	compound:lvc	_	_
+4	হ'ল	হওঁ	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	দীঘল	দীঘল	ADJ	_	_	8	amod	_	_
+6	চাপৰ	চাপৰ	ADJ	_	_	8	amod	_	_
+7	এটা	এটা	NUM	_	_	8	nummod	_	_
+8	ঘৰৰ	ঘৰ	NOUN	_	Case=Gen|Number=Sing	9	nmod	_	_
+9	ভিতৰত	ভিতৰ	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+10	।	।	PUNCT	_	_	4	punct	_	_
+
+# sent_id = ud_assamese_aiw_test_52
+# text = ওপৰৰপৰা ওলোমাই থোৱা এশাৰী চাকিয়ে ঘৰটো পোহৰ কৰি ৰাখিছিল ।
+# original_text = ওপৰৰপৰা ওলোমাই থোৱা এশাৰী চাকিয়ে ঘৰটো পোহৰ কৰি ৰাখিছিল ।
+# translation = There were a series of earthen lamps hanging from the top that have been providing light to the house.
+1	ওপৰৰপৰা	ওপৰ	NOUN	_	Case=Abl	3	obl	_	_
+2	ওলোমাই	ওলোমা	VERB	_	VerbForm=Conv	3	xcomp	_	_
+3	থোৱা	থোৱা	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
+4	এশাৰী	এক	NUM	_	NumType=Card	5	compound	_	_
+5	চাকিয়ে	চাকি	NOUN	_	Case=Erg|Number=Sing	9	nsubj	_	_
+6	ঘৰটো	ঘৰ	NOUN	_	Case=Acc|Definite=Def|Number=Sing	9	obj	_	_
+7	পোহৰ	পোহৰ	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+8	কৰি	কৰা	VERB	_	VerbForm=Conv	9	compound:svc	_	_
+9	ৰাখিছিল	ৰাখা	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = ud_assamese_aiw_test_53
+# text = ঘৰটোৰ চাৰিওকাষে থকা দুৱাৰবিলাক চাবি মাৰি বন্ধ কৰি ৰখা হৈছে ।
+# original_text = ঘৰটোৰ চাৰিওকাষে থকা দুৱাৰবিলাক চাবি মাৰি বন্ধ কৰি ৰখা হৈছে ।
+# translation = All the doors of that house were locked with a key.
+1	ঘৰটোৰ	ঘৰ	NOUN	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
+2	চাৰিওকাষে	চাৰিওকাষ	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+3	থকা	থাকা	VERB	_	VerbForm=Part	4	acl	_	_
+4	দুৱাৰবিলাক	দুৱাৰ	NOUN	_	Case=Nom|Number=Plur	9	nsubj:pass	_	_
+5	চাবি	চাবি	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	মাৰি	মাৰা	VERB	_	VerbForm=Conv	9	advcl	_	_
+7	বন্ধ	বন্ধ	ADJ	_	_	8	xcomp	_	_
+8	কৰি	কৰা	VERB	_	VerbForm=Conv	9	advcl	_	_
+9	ৰখা	ৰখা	VERB	_	VerbForm=Part	0	root	_	_
+10	হৈছে	হওঁ	AUX	_	Aspect=Perf|Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	।	।	PUNCT	_	_	9	punct	_	_
+
+# sent_id = coercive_discourse_test_19
+# text = পেণ্ডেলৰ ১০০ মিটাৰ ভিতৰত যান - বাহন থোৱাৰ অনুমতি দিব নোৱাৰিব ।
+# original_text = পেণ্ডেলৰ ১০০ মিটাৰ ভিতৰত যান - বাহন থোৱাৰ অনুমতি দিব নোৱাৰিব ।
+# translation = Within the pandal's 100 meters, permission to park vehicles must not be given.
+1	পেণ্ডেলৰ	পেণ্ডেল	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+2	১০০	১০০	NUM	_	NumType=Card	3	nummod	_	_
+3	মিটাৰ	মিটাৰ	NOUN	_	Number=Sing	4	nmod	_	_
+4	ভিতৰত	ভিতৰ	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+5	যান	যান	NOUN	_	Number=Plur	7	compound	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	বাহন	বাহন	NOUN	_	Number=Plur	8	obj	_	_
+8	থোৱাৰ	থোৱা	VERB	_	Tense=Fut|VerbForm=Part	9	acl	_	_
+9	অনুমতি	অনুমতি	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+10	দিব	দিয়া	VERB	_	Tense=Fut|VerbForm=Inf	11	xcomp	_	_
+11	নোৱাৰিব	পৰা	VERB	_	Mood=Ind|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	।	।	PUNCT	_	_	11	punct	_	_
+
+# sent_id = coercive_discourse_test_20
+# text = পূজা মণ্ডপ , তোৰণ আদি বিদ্যুৎ পৰিবাহী তাঁৰৰ তলত হ'ব নালাগিব ।
+# original_text = পূজা মণ্ডপ , তোৰণ আদি বিদ্যুৎ পৰিবাহী তাঁৰৰ তলত হ'ব নালাগিব ।
+# translation = Puja pandals etc. must not be under the wires carrying electricity.
+1	পূজা	পূজা	NOUN	_	Case=Nom|Number=Sing	2	compound	_	_
+2	মণ্ডপ	মণ্ডপ	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	তোৰণ	তোৰণ	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
+5	আদি	আদি	PART	_	_	4	discourse	_	_
+6	বিদ্যুৎ	বিদ্যুৎ	NOUN	_	Case=Nom|Number=Sing	8	obj	_	_
+7	পৰিবাহী	পৰিৱহন	ADJ	_	_	8	amod	_	_
+8	তাঁৰৰ	তাঁৰ	NOUN	_	Case=Gen|Number=Plur	9	nmod:poss	_	_
+9	তলত	তল	NOUN	_	Case=Loc	10	obl	_	_
+10	হ'ব	হওঁ	VERB	_	Tense=Fut|VerbForm=Inf	11	xcomp	_	_
+11	নালাগিব	লাগে	VERB	_	Mood=Ind|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	_
+12	।	।	PUNCT	_	_	11	punct	_	_
+
