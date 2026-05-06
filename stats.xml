@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>73</sentences><tokens>871</tokens><words>871</words><fused>0</fused></total>
+    <train><sentences>51</sentences><tokens>597</tokens><words>597</words><fused>0</fused></train>
+    <dev><sentences>14</sentences><tokens>189</tokens><words>189</words><fused>0</fused></dev>
+    <test><sentences>8</sentences><tokens>85</tokens><words>85</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="381" /><!-- ।, তাই, কৰা, থাকা, ,, হওঁ, পৰা, তল, যোৱা, লাগে, কোৱা, ভাবা, পূজা, আৰু, শহা -->
+  <forms unique="521" /><!-- ।, ,, তাই, লাগিব, কৰিব, তাইৰ, পূজা, আৰু, এটা, ?, “, ”, কোনো, কৰি, গৈ -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">47</tag><!-- আচৰিত, জৰুৰীকালীন, ডাঙৰ, দীঘল, নতুন, ৰাজহুৱা, অকণমান, অবাক, আকৰী, আন -->
+    <tag name="ADP">18</tag><!-- বাবে, দৰে, পৰা, অনুসৰি, আশে, উপৰি, পাশে, প্রতি, বিষয়, সুবিধা -->
+    <tag name="ADV">51</tag><!-- বৰ, ইমান, এবাৰ, অকস্মাৎ, আকৌ, কোবাকুবি, চাগৈ, তেতিয়া, পৃথক, অ' -->
+    <tag name="AUX">11</tag><!-- থাকা, হওঁ -->
+    <tag name="CCONJ">13</tag><!-- আৰু, কিন্তু, নে, তথাপি, পিছে -->
+    <tag name="DET">25</tag><!-- এই, কোনো, কিমান, সকলো, একো, এটা, এনে, এনেকুৱা, কি, কিছুমান -->
+    <tag name="INTJ">5</tag><!-- ইচ্, অ', কিনো, হওঁ -->
+    <tag name="NOUN">278</tag><!-- তল, পূজা, শহা, কথা, পাছ, কাম, নাম, মানুহ, কমিটি, কিতাপ -->
+    <tag name="NUM">16</tag><!-- এটা, এক, চাৰি, দুই, হাজাৰ, ১০০, ২৪x৭ -->
+    <tag name="PART">13</tag><!-- আদি, জানা, নো, অ', জানো, দেখা, না, বাৰু, হে -->
+    <tag name="PRON">58</tag><!-- তাই, মই, কি, একো, সি, সিহঁত, কোনো, সেই, এই, এইজন -->
+    <tag name="PROPN">11</tag><!-- এলিচ, ডিনা, অস্ট্রেলিয়া, দুৰ্গা, নিউজিলেণ্ড -->
+    <tag name="PUNCT">121</tag><!-- ।, ,, ?, “, ”, !, -, " -->
+    <tag name="SCONJ">10</tag><!-- যে, যেন, বুলি, যদি, যেতিয়া, হ -->
+    <tag name="VERB">194</tag><!-- কৰা, হওঁ, থাকা, যোৱা, লাগে, কোৱা, পৰা, ভাবা, সোমা, লাগা -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="34">
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">28</feat><!-- ক'লে, গ'ল, হৈছে, পৰিল, ভাবিলে, আহিলোঁ, উঠিল, কোৱা, জনাইছে, জান -->
+    <feat name="Case" value="Abl" upos="NOUN">4</feat><!-- ওপৰৰপৰা, গাঁতটোৰপৰা, জেপৰপৰা, বহাৰপৰা -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON">21</feat><!-- আহ্বান, ব্যৱস্থা, অনুমতি, আৰক্ষীক, উৎসৱস্থলীক, কক্ষ, কথাখিনি, গোট, ঘৰটো, চান্দা -->
+    <feat name="Case" value="Dat" upos="NOUN">6</feat><!-- তললৈ, তললৈকে -->
+    <feat name="Case" value="Erg" upos="NOUN,PRON,PROPN">13</feat><!-- শহাটোৱে, কমিটীয়ে, মানুহে, এলিচে, চাকিয়ে, মানুহগৰাকীয়ে, সকলোৱে, সমিতি, সমিতিয়ে -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON">72</feat><!-- ঠাইখনৰ, তাৰ, পৃথিৱীৰ, তাইৰ, ধৰণৰ, শহাটোৰ, অক্ষাংশৰ, অনুষ্ঠানৰ, অৱস্থাৰ, আন্ধাৰৰ -->
+    <feat name="Case" value="Ins" upos="NOUN">1</feat><!-- শান্তিৰে -->
+    <feat name="Case" value="Loc" upos="NOUN">39</feat><!-- পাছে, ভিতৰত, ওচৰত, তলত, দেৱালত, মাজত, সময়ত, ওপৰত, ক'ৰবাত, কাষেদিয়েই -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">90</feat><!-- পূজা, কথা, শহাটো, নামটো, নীতি, পলম, পাৰ, ব্যৱহাৰ, লৰ, শব্দ -->
+    <feat name="Definite" value="Def" upos="NOUN,PRON">38</feat><!-- ঠাইখনৰ, শহাটোৱে, শহাটো, শহাটোৰ, এইটো, কথাখিনি, কথাবোৰ, কথাহে, কিতাপখনলৈ, কিতাপখনৰ -->
+    <feat name="ExtPos" value="ADV" upos="ADV">2</feat><!-- অ'ত, ত'ত -->
+    <feat name="Gender" value="Fem" upos="NOUN,PRON,PROPN">39</feat><!-- তাই, তাইৰ, এলিচ, মই, এলিচো, তায়ো, তেওঁ, বাইদেৱেকে, বাইদেৱেকৰ, মোক -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">89</feat><!-- লাগিব, আছে, ক'লে, গ'ল, নোৱাৰিব, ভাবিলে, হ'ব, আছিল, নাই, হ'ল -->
+    <feat name="Number" value="Plur" upos="DET,NOUN,PRON">39</feat><!-- আহ্বান, এইসমূহ, কথাবোৰ, কাম, কৰ্মকৰ্তা, চকু, চকুযুৰি, ছবি, তাঁৰৰ, তাহাঁতৰ -->
+    <feat name="Number" value="Sing" upos="NOUN,PRON,PROPN">264</feat><!-- তাই, তাইৰ, পূজা, তললৈ, পাছে, কথা, ঠাইখনৰ, তাৰ, ব্যৱস্থা, মই -->
+    <feat name="NumType" value="Card" upos="NUM">7</feat><!-- এক, একোটা, এটা, এশাৰী, ১০০, ২৪x৭ -->
+    <feat name="Person" value="1" upos="PRON">7</feat><!-- মই, মোক, মোৰ, ম‍ই -->
+    <feat name="Person" value="2" upos="PRON">1</feat><!-- তই -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">41</feat><!-- তাই, তাইৰ, তাৰ, পৰিলগৈ, সোমাই, আছে, আহিবপৰা, ওলাই, তায়ো, তেওঁ -->
+    <feat name="Polarity" value="Neg" upos="AUX,PART,VERB">21</feat><!-- নোৱাৰিব, নাই, নকৰি, নকৰিব, নকৰিবলৈয়ো, নথকা, নহ'বনেকি, নহয়, নাচালে, নাছিল -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">12</feat><!-- এই, এইজনী, এইটো, এইসমূহ, এনে, এনেকুৱা, সেইটো, সেয়ে -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">14</feat><!-- কোনো, একো, একোকে, একোটোকে, এটা, কিছুমান, কেতবোৰ, নানা -->
+    <feat name="PronType" value="Int" upos="DET,PRON">9</feat><!-- কি, কিমান, কিবা -->
+    <feat name="PronType" value="Prs" upos="PRON">44</feat><!-- তাই, তাইৰ, মই, তাৰ, তই, তায়ো, তাহাঁতৰ, তেওঁ, নিজকে, মোক -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">4</feat><!-- সকলো, প্রতিখন, সকলোৱে -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- নিজকে -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">62</feat><!-- লাগিব, কৰিব, হ'ব, নোৱাৰিব, ৰাখিব, আহিবপৰা, উঠি, ওলাই, কৰি, কৰিবলৈ -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">60</feat><!-- ক'লে, গ'ল, ভাবিলে, আছিল, সোমাই, হ'ল, আহিলোঁ, ধৰিলে, পৰিল, পৰিলগৈ -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">30</feat><!-- আছে, নাই, হৈছে, গৈ, আঁৰি, কোৱা, চলাৰ, চাওঁ, জনাইছে, জান -->
+    <feat name="VerbForm" value="Conv" upos="VERB">48</feat><!-- কৰি, সোমাই, গৈ, হৈ, চাই, বহি, ভাবি, মাৰি, আহি, উঠি -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">89</feat><!-- লাগিব, আছে, ক'লে, গ'ল, নোৱাৰিব, ভাবিলে, হ'ব, আছিল, নাই, হ'ল -->
+    <feat name="VerbForm" value="Inf" upos="VERB">33</feat><!-- কৰিব, কৰিবলৈ, ৰাখিব, জনাব, জনাবলৈ, থাকিব, দিব, দিবলৈ, নকৰিব, নকৰিবলৈয়ো -->
+    <feat name="VerbForm" value="Part" upos="VERB">25</feat><!-- থকা, কোৱা, গৈ, পৰাকৈ, অনুষ্ঠিত, আঁৰি, আহিবপৰা, ওলোৱাৰ, কঢ়া, থোৱা -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">8</feat><!-- কৰাটোকে, খাবৰ, গঁথাৰ, চলাৰ, থকাৰ, পিন্ধাৰ, ফুৰাটোও, সোধাৰ -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="33">
+    <dep name="acl">16</dep>
+    <dep name="advcl">32</dep>
+    <dep name="advmod">50</dep>
+    <dep name="amod">34</dep>
+    <dep name="appos">2</dep>
+    <dep name="aux">10</dep>
+    <dep name="case">15</dep>
+    <dep name="cc">13</dep>
+    <dep name="ccomp">12</dep>
+    <dep name="compound">20</dep>
+    <dep name="compound:lvc">26</dep>
+    <dep name="compound:redup">9</dep>
+    <dep name="compound:svc">25</dep>
+    <dep name="conj">16</dep>
+    <dep name="cop">1</dep>
+    <dep name="det">26</dep>
+    <dep name="discourse">17</dep>
+    <dep name="fixed">1</dep>
+    <dep name="iobj">3</dep>
+    <dep name="mark">10</dep>
+    <dep name="nmod">40</dep>
+    <dep name="nmod:poss">31</dep>
+    <dep name="nsubj">79</dep>
+    <dep name="nsubj:pass">1</dep>
+    <dep name="nummod">14</dep>
+    <dep name="obj">57</dep>
+    <dep name="obl">73</dep>
+    <dep name="obl:lmod">1</dep>
+    <dep name="parataxis">10</dep>
+    <dep name="punct">121</dep>
+    <dep name="root">73</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">32</dep>
+  </deps>
+</treebank>
